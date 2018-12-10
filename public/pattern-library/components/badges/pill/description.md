@@ -1,0 +1,1 @@
+All pill badges styles

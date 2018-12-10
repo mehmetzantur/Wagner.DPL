@@ -1,0 +1,1 @@
+All standart buttons styles

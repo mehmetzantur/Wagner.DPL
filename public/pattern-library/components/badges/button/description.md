@@ -1,0 +1,1 @@
+All button badges styles

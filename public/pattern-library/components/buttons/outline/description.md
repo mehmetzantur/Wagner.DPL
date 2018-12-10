@@ -1,0 +1,1 @@
+All standart outline buttons styles

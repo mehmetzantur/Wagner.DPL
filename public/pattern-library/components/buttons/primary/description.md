@@ -1,1 +1,0 @@
-The primary button style

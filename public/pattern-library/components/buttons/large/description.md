@@ -1,0 +1,1 @@
+All standart large buttons styles

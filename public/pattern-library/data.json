@@ -53,13 +53,151 @@
     },
     "groups": [
         {
+            "name": "alerts",
+            "title": "Alerts",
+            "components":[
+                {
+                    "group": "alerts",
+                    "name": "standart",
+                    "title": "Standart Alerts",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "alerts",
+                    "name": "link",
+                    "title": "Link Alerts",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "alerts",
+                    "name": "content",
+                    "title": "Content Alerts",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "badges",
+            "title": "Badges",
+            "components":[
+                {
+                    "group": "badges",
+                    "name": "heading",
+                    "title": "Heading Badges",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "badges",
+                    "name": "button",
+                    "title": "Button Badges",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "badges",
+                    "name": "textual",
+                    "title": "Textual Badges",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "badges",
+                    "name": "link",
+                    "title": "Link Badges",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "badges",
+                    "name": "pill",
+                    "title": "Pill Badges",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        },
+        {
             "name": "buttons",
             "title": "Buttons",
             "components": [
                 {
                     "group": "buttons",
-                    "name": "primary",
-                    "title": "Primary Button",
+                    "name": "standart",
+                    "title": "Standart Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "outline",
+                    "title": "Standart Outline Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "small",
+                    "title": "Small Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "large",
+                    "title": "Large Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "block-small",
+                    "title": "Block Small Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "block-large",
+                    "title": "Block Large Buttons",
+                    "width": "full",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "button-group",
+                    "title": "Button Group",
                     "width": "half",
                     "options": {
                         "sample_dark_background": false
@@ -67,8 +205,8 @@
                 },
                 {
                     "group": "buttons",
-                    "name": "success",
-                    "title": "Success Button",
+                    "name": "button-group-paging",
+                    "title": "Button Group Paging",
                     "width": "half",
                     "options": {
                         "sample_dark_background": false
@@ -79,3 +217,4 @@
     ],
     "version": "1.0.0"
 }
+

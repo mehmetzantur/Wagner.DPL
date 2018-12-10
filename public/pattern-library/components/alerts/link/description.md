@@ -1,0 +1,1 @@
+All link alerts styles

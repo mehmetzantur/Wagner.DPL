@@ -1,0 +1,1 @@
+All standart alerts styles

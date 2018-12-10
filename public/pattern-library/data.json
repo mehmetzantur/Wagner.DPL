@@ -1,0 +1,81 @@
+{
+    "project_logo": "img/MaviRenk_Sadece_Logo.png",
+    "project_favicon": "img/MaviRenk_Sadece_Logo.png",
+    "project_name": "WDPL",
+    "project_url": "http://wagner.com.tr",
+    "copyright_start_year": "2018",
+    "client_name": "Wagner",
+    "client_url": "http://wagner.com.tr",
+    "creators": [
+        {
+            "name": "Wagner IT",
+            "url": "http://wagner.com.tr"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Wagner Design Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "primary",
+                    "title": "Primary Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "success",
+                    "title": "Success Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": false
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "1.0.0"
+}

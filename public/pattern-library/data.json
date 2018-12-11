@@ -1,6 +1,6 @@
 {
-    "project_logo": "img/MaviRenk_Sadece_Logo.png",
-    "project_favicon": "img/MaviRenk_Sadece_Logo.png",
+    "project_logo": "lib/img/MaviRenk_Sadece_Logo.png",
+    "project_favicon": "lib/img/MaviRenk_Sadece_Logo.png",
     "project_name": "WDPL",
     "project_url": "http://wagner.com.tr",
     "copyright_start_year": "2018",
@@ -31,9 +31,12 @@
     },
     "assets": {
         "css": [
-            "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+            "lib/wagner.css"
         ],
-        "js": []
+        "js": [
+           
+        ]
     },
     "font_libraries": {
         "typekit_code": null,
@@ -52,6 +55,31 @@
         ]
     },
     "groups": [
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components":[
+                {
+                    "group": "branding",
+                    "name": "color-scheme",
+                    "title": "Colour Scheme",
+                    "width": "full",
+                    "type": "colors",
+                    "colors": [
+                        "#000000,#666666",
+                        "#15455B,#3C7189",
+                        "#218597,#A1CAD5",
+                        "#F3F3F3,#FFFFFF"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "logo",
+                    "title": "Logo",
+                    "width": "full"
+                }
+            ]
+        },
         {
             "name": "alerts",
             "title": "Alerts",

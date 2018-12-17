@@ -32,3 +32,115 @@
 
 
 
+  body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+    
+}*/
+
+
+.bg-wagner {
+    background-color: #092c74;
+}
+
+.text-wagner {
+    color: #092c74;
+}
+
+.border-2-red {
+    -moz-box-shadow: 0 0 5px red;
+    -webkit-box-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px red;
+}
+
+
+
+.text-color-black {
+    color: black;
+}
+
+
+
+#row-operatorsTraining > a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.operator-card:hover {
+    -moz-box-shadow: 0 0 5px #092c74;
+    -webkit-box-shadow: 0 0 5px #092c74;
+    box-shadow: 0 0 5px #092c74;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.btn-xs,
+.btn-group-xs > .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+    .btn-xs .badge,
+    .btn-group-xs > .btn .badge {
+        top: 0;
+        padding: 1px 5px;
+    }
+
+#loading {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+
+
+#loading-go-training {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+
+
+.verticalDiv {
+    font-size: 30px;
+    width: 100%;
+    background-color: yellow;
+    -webkit-transform: rotate(270deg); /* Safari and Chrome */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -o-transform: rotate(270deg); /* Opera */
+    transform: rotate(270deg);
+    padding-bottom: 3mm;
+}

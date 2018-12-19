@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 
-        <title v-text="project_name ? project_name + ' | Pattern Library' : 'Design Pattern Library'"></title>
+        <title v-text="project_name ? project_name + ' | Wagner Design Pattern Library' : 'Design Pattern Library'"></title>
 
         <!-- Astrum (https://github.com/NoDivide/astrum) -->
         <meta name="application-name" content="WDPL {{ version }}" />
@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel='stylesheet' type='text/css'>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
         <script>
             WebFont.load({
                 google: {
@@ -139,8 +140,23 @@
                                @click.prevent="loadPage(page)">
                             </a>
                         </li>
+
                     </ul>
                 </template>
+
+                    <h2 class="ndpl-nav__title">Pages</h2>
+
+                    <ul class="ndpl-nav__items ndpl-c-border ndpl-c-highlight-ca ndpl-c-brand-bl-ca">
+                            <li class="ndpl-nav__item">
+                            <a class="ndpl-nav__page ndpl-nsc ndpl-c-border-b" href="admin.html">Admin Panel</a>
+                        </li>
+
+                        <li class="ndpl-nav__item">
+                            <a class="ndpl-nav__page ndpl-nsc ndpl-c-border-b" href="#">Login</a>
+                        </li>
+
+                    </ul>
+
 
                 <h2 class="ndpl-nav__title">
                     <a class="ndpl-nsc"
@@ -298,6 +314,11 @@
                  inline-template>
         <script :src="script"></script>
     </ndpl-script>
+
+
+    <script src="lib/assets/jquery-3.3.1.min.js"></script>
+    <script src="lib/assets/popper.min.js"></script>
+    <script src="lib/assets/bootstrap.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.8.0/vue-resource.min.js"></script>

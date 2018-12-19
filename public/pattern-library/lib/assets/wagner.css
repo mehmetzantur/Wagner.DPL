@@ -1,0 +1,259 @@
+:root {
+    --wgr-blue: #002D72;
+    --wgr-blue-light: #103774;
+    --wgr-blue-light-hover: #204784;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+.bg-wgrblue {
+    background-color: var(--wgr-blue);
+}
+
+.text-wagner {
+    color: var(--wgr-blue);
+}
+
+.border-2-red {
+    -moz-box-shadow: 0 0 5px red;
+    -webkit-box-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px red;
+}
+
+
+
+.text-color-black {
+    color: black;
+}
+
+
+  body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-wgr {
+  background-color: var(--wgr-blue);
+  color:white;
+
+}
+
+.btn-wgr:hover {
+  background-color: var(--wgr-blue-light-hover);
+  color:white;
+}
+
+.navbtn-wgr {
+  background-color: var(--wgr-blue-light);
+  color:white;
+  font-size: 20px;
+  width: 50px;
+}
+
+.navbtn-wgr:hover {
+  background-color: var(--wgr-blue-light-hover);
+  color:white;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    width: 250px;
+    font-size: 13px;
+    height: 35px;
+}
+
+.dropdown-item:focus {
+    background-color: var(--wgr-blue);
+    color:white;
+}
+
+
+.notifybadge {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px 4px;
+    line-height: .9;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.dropdown-msgitem {
+    height: 80px;
+}
+
+.btn-msgcaption {
+    font-size: 13px;
+    height: 30px;
+}
+
+.btn-msgtime {
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.btn-msgcontent {
+    font-size: 12px;
+}
+
+
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+
+
+.admin-leftmenu-container {
+    width: 250px;
+    height: 100%;
+    min-height: 600px;
+    background-color: var(--wgr-blue-light);
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+    
+}*/
+
+
+
+
+.left-menu-span {
+    margin-left: 10px;
+}
+
+#row-operatorsTraining > a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.operator-card:hover {
+    -moz-box-shadow: 0 0 5px #092c74;
+    -webkit-box-shadow: 0 0 5px #092c74;
+    box-shadow: 0 0 5px #092c74;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.btn-xs,
+.btn-group-xs > .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+    .btn-xs .badge,
+    .btn-group-xs > .btn .badge {
+        top: 0;
+        padding: 1px 5px;
+    }
+
+#loading {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+
+
+#loading-go-training {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+
+
+.verticalDiv {
+    font-size: 30px;
+    width: 100%;
+    background-color: yellow;
+    -webkit-transform: rotate(270deg); /* Safari and Chrome */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -o-transform: rotate(270deg); /* Opera */
+    transform: rotate(270deg);
+    padding-bottom: 3mm;
+}

@@ -1,3 +1,4 @@
-# Introduction
+# Başlangıç
 
-Add your intro copy in `./pages/intro.md` or alternatively if you do not want a intro (or any other) page set `content` in your `data.json` file to `null`.
+WDPL (Wagner Design Pattern Library); tüm Wagner yazılım projelerinde kullanılabilecek bir tasarım deseni kütüphanesidir. Tüm projeler css dosyası olarak buradaki dosyayı kullanacak olup, güncellemelerde tüm projeler aynı anda güncellenecektir.
+
